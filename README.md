@@ -81,7 +81,7 @@ sudo apt-get install libopencv-dev
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/sdhar04/testing_ver.git
 cd testing_ver
 
 # Build the project
@@ -174,7 +174,7 @@ Original RTL design by:
 - **Felipe Machado Sanchez**
 - Area de Tecnologia Electronica
 - Universidad Rey Juan Carlos
-- https://github.com/felipe-m
+- [https://github.com/felipe-m](https://github.com/felipe-m)
 
 ## License
 
