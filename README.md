@@ -24,8 +24,8 @@ This project simulates a vision-based object tracking system typically used in m
 │  │ Frame Buffer│───▶│ Color Proc  │───▶│ Frame Buffer (out)  │  │
 │  │   (input)   │    │  (filter)   │    │                     │  │
 │  └─────────────┘    └──────┬──────┘    └─────────────────────┘  │
-│                            │                                     │
-│                            ▼                                     │
+│                            │                                    │
+│                            ▼                                    │
 │                     ┌─────────────┐    ┌─────────────────────┐  │
 │                     │  Centroid   │───▶│   Motor Ctrl SPI    │  │
 │                     │ Calculator  │    │                     │  │
@@ -59,23 +59,8 @@ This project simulates a vision-based object tracking system typically used in m
 - **OpenGL** - Graphics rendering
 - **ImGui** - Immediate mode GUI library
 - **OpenCV 4** - Image processing
-- **ROS Noetic** - Robot Operating System (optional, for robot integration)
+- **ROS Noetic** - Robot Operating System
 
-### Installing Dependencies (Ubuntu/Debian)
-
-```bash
-# Verilator
-sudo apt-get install verilator
-
-# SDL2
-sudo apt-get install libsdl2-dev
-
-# OpenCV
-sudo apt-get install libopencv-dev
-
-# ROS Noetic (optional)
-# Follow instructions at http://wiki.ros.org/noetic/Installation
-```
 
 ## Building
 
@@ -93,6 +78,9 @@ make
 ## Usage
 
 ```bash
+# Run Gazebo with a Turtlebot2
+roslaunch diffdrive_cam_bot main.launch
+
 # Run the simulator
 ./obj_dir/Vdesign_top
 ```
