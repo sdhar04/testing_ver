@@ -76,11 +76,13 @@ make
 ```
 
 ## Usage
-
+Do the following in separate terminal windows
 ```bash
 # Run Gazebo with a Turtlebot2
 roslaunch diffdrive_cam_bot main.launch
+```
 
+```bash
 # Run the simulator
 ./obj_dir/Vdesign_top
 ```
