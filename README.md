@@ -158,14 +158,6 @@ testing_ver/
 - **Proximity Levels**: 0-7 (0=far, 7=close)
 - **Motor Output**: 16-bit signed values (degrees per second)
 
-## Authors
+## Credits
 
-Original RTL design by:
-- **Felipe Machado Sanchez**
-- Area de Tecnologia Electronica
-- Universidad Rey Juan Carlos
-- [https://github.com/felipe-m](https://github.com/felipe-m)
-
-## License
-
-Please refer to the original author's repository for license information.
+Done under guidance of [Felipe M. Sanchez](github.com/felipe-m) 
