@@ -6,6 +6,9 @@ A hardware-software co-simulation project that implements color-based object tra
 
 This project simulates a vision-based object tracking system typically used in mobile robots. The design processes camera frames to detect objects of a specific color, calculates their position (centroid), estimates proximity, and generates motor control signals to track the object.
 
+<img width="1920" height="1200" alt="proof" src="https://github.com/user-attachments/assets/762fb6c5-3663-462a-a6bc-200e86cd37ca" />
+
+
 ### Key Features
 
 - **Real-time color filtering** - Supports red, green, blue, cyan, magenta, yellow, and white color detection
