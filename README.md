@@ -160,4 +160,4 @@ testing_ver/
 
 ## Credits
 
-Done under guidance of [Felipe M. Sanchez](github.com/felipe-m) 
+Done under guidance of [Felipe M. Sanchez](github.com/felipe-m), [Rubén Nieto](https://github.com/rubennc91) and faculty from Universidad Rey Juan Carlos.
